@@ -5,6 +5,6 @@
 - C, C++
 
 ## Sorting Algorithm
-- [Bubble Sort](Algorithm/SortingAlgorithm/BubbleSort/)
+- [Bubble Sort](seong-ho-park/Algorithm/SortingAlgorithm/BubbleSort/)
 - Insertion Sort
 - Selection Sort
