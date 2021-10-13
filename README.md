@@ -6,5 +6,5 @@
 
 ## Sorting Algorithm
 - [Bubble Sort](https://github.com/seong-ho-park/Algorithm/blob/master/SortingAlgorithm/BubbleSort/)
-- Insertion Sort
-- Selection Sort
+- [Insertion Sort](https://github.com/seong-ho-park/Algorithm/blob/master/SortingAlgorithm/InsertionSort/)
+- [Selection Sort](https://github.com/seong-ho-park/Algorithm/blob/master/SortingAlgorithm/selectionSort/)
