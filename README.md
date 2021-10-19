@@ -9,6 +9,6 @@
 - [Insertion Sort](https://github.com/seong-ho-park/Algorithm/blob/master/SortingAlgorithm/InsertSort/)
 - [Selection Sort](https://github.com/seong-ho-park/Algorithm/blob/master/SortingAlgorithm/selectionSort/)
 
-- [Recursiv Merge Sort]()
-- [Iterative Merge Sort]()
+- [Recursiv Merge Sort](https://github.com/seong-ho-park/Algorithm/tree/master/SortingAlgorithm/Recursive%20MergeSort)
+- [Iterative Merge Sort](https://github.com/seong-ho-park/Algorithm/tree/master/SortingAlgorithm/Iterative%20MergeSort)
 
