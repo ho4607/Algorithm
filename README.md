@@ -15,3 +15,6 @@
 - [Recursiv Merge Sort](https://github.com/seong-ho-park/Algorithm/tree/master/SortingAlgorithm/Recursive%20MergeSort)
 - [Iterative Merge Sort](https://github.com/seong-ho-park/Algorithm/tree/master/SortingAlgorithm/Iterative%20MergeSort)
 
+
+## License
+All files are available as open source under the terms of the MIT license. 
