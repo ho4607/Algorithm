@@ -17,4 +17,4 @@
 
 
 ## License
-All files are available as open source under the terms of the MIT license. 
+All files are available as open source under the terms of the BSD license. 
