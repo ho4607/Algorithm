@@ -41,7 +41,7 @@ int main(void){
    		fprintf(fout,"%d ",dataBox[i]);
 	}
 	fclose(fout);
-
+    printf("Successful");
 
 }
 
@@ -50,12 +50,12 @@ void MaxHeapify(int A[], int i){
     int r = 2*i+1;
     int largest;
     int temp;
-    if(l <= sizeof(A)/sizeof(int) && A[l] > A[i]){
+    if(l <= (sizeof(A)/sizeof(int)+1)&& A[l] > A[i]){
         largest = l;
     }else{
         largest = i;
     }
-    if(r <= sizeof(A)/sizeof(int) && A[r] > A[largest]){
+    if(r <= sizeof(A)/sizeof(int)&& A[r] > A[largest]){
         largest = r;
     }
     if(largest != i){
