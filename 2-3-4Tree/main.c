@@ -20,7 +20,7 @@ int main (void){
     return 0;
 };
 
-void insertion(int value, struct Node *N){
+void insertion(int value, Node *N){
     // 현재 위치가 leaf node 일 때
     if ( N->subNode[0] = NULL /*TODO: 언제 NIL인지 결정해야함.*/){
         /* TODO: 언제 length로 판별하는 방법은 C언어에서 잘못 됌.
