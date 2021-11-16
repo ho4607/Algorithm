@@ -23,10 +23,17 @@ int main (void){
 void insertion(int value, struct Node *N){
     // 현재 위치가 leaf node 일 때
     if ( N->subNode[0] = NULL /*TODO: 언제 NIL인지 결정해야함.*/){
-        /* TODO: 언제 length로 판별하는 방법은 C언어에서 잘못 됌.
-        if(length(N->key[0]) <= 1) N->key[0] = value;
-        else if(length(N->key) <= 2) N->key[1] = value;
-        */
+
+        if(N->key[0] = 0 || N->key[1] > value){ N->key[0] = value;} // 가장 왼쪽 키에 넣기
+        else if(N->key[1] = 0 || (N->key[0] < value && N->key[1] > value)){ N->key[1] = value;}
+        else if(N->key[2] = 0 || (N->key[1] < value && N->key[2] > value)){ N->key[2] = value;}
+        else if(N->key[3] = 0 || (N->key[2] < value && N->key[3] > value)){ 
+            N->key[3] = value;
+            insertion(N->key[2], N->parent);
+            insertion(N->key[3], N->parent);
+            N->key[2]=0;
+            N->key[3]=0;
+        }
     }
     // 현재 위치가 core Node 일 때
     else if(N->subNode[0] != NULL && (N->key[0] != NULL)){  
