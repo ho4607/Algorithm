@@ -31,7 +31,7 @@ void insertion(int value, Node *N){
         else if(N->key[3] == 0 ){                     // 네번째 키에 넣고 split 실행
             N->key[3] = value;
             
-            //split 작업 시작
+            //split 작업 시작 0 1 2 3
             insertion(N->key[2], N->parent);
             N->parent->subNode[0] = &N;
 
@@ -54,5 +54,13 @@ void insertion(int value, Node *N){
     }
 };
 
-// void split(Node *currentNode){
-// }
+void split(Node *currentNode){
+    
+    insertion(currentNode->key[3], currentNode->parent);
+    Node *anotherNode;
+
+    // 위치가 맞는 부모의 subNode와 포인터가 연결되도록 수정 
+    currentNode->parent->subNode[0] = 
+    currentNode->parent->subNode[1] = anotherNode->parent
+
+}
