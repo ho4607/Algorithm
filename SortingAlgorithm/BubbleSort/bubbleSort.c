@@ -17,12 +17,12 @@ void main (){
         printf("Fail to read file. \n\nCheck if the \"input.txt\" file exists in the directory.\n\n");
         E=1;
     }
-    for(i=0; i<max_len ;i++){   // loop invariant: i-1 ±îÁöÀÇ °ªÀº ¹è¿­¿¡ ´ã°ÜÀÖ´Ù. 
+    for(i=0; i<max_len ;i++){   // loop invariant: i-1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½. 
    		fscanf(fin,"%d",&dataBox[i]);
 	}
 	fclose(fin);
 	
-	//Selection Sort
+	//bubble Sort
 	n = max_len;
 	for(i=n-1;i>0;i--){
 		for(index=0;index<i;index++){
@@ -46,7 +46,7 @@ void main (){
 	//file output
     FILE* fout;
 	fout = fopen("output.txt", "w+");
-    for(i=0; i<max_len; i++){   // loop invariant: i-1 ±îÁöÀÇ °ªÀº txtÆÄÀÏ¿¡ ´ã°ÜÀÖ´Ù.
+    for(i=0; i<max_len; i++){   // loop invariant: i-1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ txtï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½.
    		fprintf(fout,"%d ",dataBox[i]);
 	}
 	fclose(fout);
